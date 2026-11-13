@@ -1,0 +1,56 @@
+{
+  "title": "Advanced Tankerkoenig",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Advanced Tankerkoenig",
+        "description": "Enter API key and station UUIDs.",
+        "data": {
+          "api_key": "API key",
+          "stations": "Station UUIDs"
+        }
+      },
+      "add_station": {
+        "title": "Add stations",
+        "description": "Uses the existing key. {remaining} slots left.",
+        "data": {
+          "stations": "New station UUIDs"
+        }
+      },
+      "reconfigure": {
+        "title": "Replace API key",
+        "description": "Replace the API key.",
+        "data": {
+          "api_key": "New API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_stations": "Enter 1–10 unique UUIDs.",
+      "invalid_api_key": "Enter a valid API key.",
+      "duplicate_station": "Station already added.",
+      "station_limit": "Maximum 10 stations."
+    },
+    "abort": {
+      "already_configured": "Already configured.",
+      "not_configured": "Set up the integration first.",
+      "station_limit": "Maximum 10 stations.",
+      "stations_added": "Stations added.",
+      "reconfigure_successful": "API key replaced."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Manage stations",
+        "description": "Enter all station UUIDs.",
+        "data": {
+          "stations": "Station UUIDs"
+        }
+      }
+    },
+    "error": {
+      "invalid_stations": "Enter 1–10 unique UUIDs."
+    }
+  }
+}

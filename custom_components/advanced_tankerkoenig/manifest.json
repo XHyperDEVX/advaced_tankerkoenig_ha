@@ -1,0 +1,12 @@
+{
+  "domain": "advanced_tankerkoenig",
+  "name": "Advanced Tankerkoenig",
+  "codeowners": ["@XHyperDEVX"],
+  "config_flow": true,
+  "documentation": "https://github.com/XHyperDEVX/advaced_tankerkoenig_ha",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "dependencies": ["persistent_notification"],
+  "requirements": [],
+  "version": "2.1.3"
+}

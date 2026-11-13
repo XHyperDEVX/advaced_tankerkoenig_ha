@@ -1,0 +1,56 @@
+{
+  "title": "Advanced Tankerkoenig",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Advanced Tankerkoenig einrichten",
+        "description": "API-Schlüssel und Tankstellen-UUIDs eingeben.",
+        "data": {
+          "api_key": "API-Schlüssel",
+          "stations": "Tankstellen-UUIDs"
+        }
+      },
+      "add_station": {
+        "title": "Tankstellen hinzufügen",
+        "description": "Bestehender Schlüssel. Noch {remaining} Plätze frei.",
+        "data": {
+          "stations": "Neue Tankstellen-UUIDs"
+        }
+      },
+      "reconfigure": {
+        "title": "API-Schlüssel ersetzen",
+        "description": "API-Schlüssel ersetzen.",
+        "data": {
+          "api_key": "Neuer API-Schlüssel"
+        }
+      }
+    },
+    "error": {
+      "invalid_stations": "1–10 eindeutige UUIDs eingeben.",
+      "invalid_api_key": "Gültigen API-Schlüssel eingeben.",
+      "duplicate_station": "Tankstelle bereits vorhanden.",
+      "station_limit": "Maximal 10 Tankstellen."
+    },
+    "abort": {
+      "already_configured": "Bereits eingerichtet.",
+      "not_configured": "Integration zuerst einrichten.",
+      "station_limit": "Maximal 10 Tankstellen.",
+      "stations_added": "Tankstellen hinzugefügt.",
+      "reconfigure_successful": "API-Schlüssel ersetzt."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Tankstellen verwalten",
+        "description": "Alle Tankstellen-UUIDs eingeben.",
+        "data": {
+          "stations": "Tankstellen-UUIDs"
+        }
+      }
+    },
+    "error": {
+      "invalid_stations": "1–10 eindeutige UUIDs eingeben."
+    }
+  }
+}
